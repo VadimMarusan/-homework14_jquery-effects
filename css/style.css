@@ -1,0 +1,501 @@
+body {
+    position: relative;
+}
+
+.header {
+    background: #313131;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo img {
+    padding: 0px 30px 0px 15px;
+}
+
+.logo-text {
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+    color: #fff;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    padding: 10px 20px;
+}
+
+.menu-text {
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.menu-text:hover, .fa-search:hover {
+    color: #14B9D5;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+.search {
+    width: 68px;
+    height: 70px;
+    background: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-search {
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.container-header-bg {
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+    background: url(../images/header-bg.jpeg) no-repeat, center;
+    background-size: 100%;
+    background-position: top -300px left 0px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-attachment: fixed;
+}
+
+.container-header-bg:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0, 0.4);
+}
+
+.container-header-bg-content {
+    position: relative;
+}
+
+.header-img-h2 {
+    color: #FFFFFF;
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 37px;
+}
+
+.container-header-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.subscribe-now {
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    background: #89CA62;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+.best-articles {
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    background: #14B9D5;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.subscribe-now:hover {
+    background: #597e3e;
+    cursor: pointer;
+}
+
+.best-articles:hover {
+    background: #0d7688;
+    cursor: pointer;
+}
+
+.main-container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+
+.most-popular-posts {
+    background-color: #F2F2F2;
+    padding-bottom: 50px;
+}
+
+.most-popular-posts-h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #18B4CF;
+}
+
+.most-popular-posts-container {
+    display: flex;
+
+}
+
+.most-popular-item-pair-container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.most-popular-item {
+    margin-top: 50px;
+    background-color: #FFFFFF;
+}
+
+
+
+.most-popular-item-description {
+    text-align: center;
+    padding: 15px;
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #353A3D;
+}
+
+.our-most-popular-clients {
+    width: 100%;
+    height: 590px;
+    background: url(../images/parallax-bg.jpeg);
+    background-size: 100%;
+    position: relative;
+    padding-top: 106px;
+    background-attachment: fixed;
+}
+
+.our-most-popular-clients:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0, 0.4);
+}
+
+.our-most-popular-clients-container {
+    display: grid;
+    grid-gap: 87px;
+    position: relative;
+}
+
+.our-most-popular-clients-h2 {
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 44px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: grid;
+    justify-items: center;
+}
+
+.our-most-popular-clients-hline {
+    width: 60px;
+    height: 3px;
+    background: #18B4CF;
+    margin: 0 auto;
+}
+
+.our-most-popular-clients-content {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 70px;
+}
+
+.top-rated-h2 {
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #18B4CF;
+    display: grid;
+    justify-items: center;
+    margin-top: 50px;
+}
+
+.top-rated-container-content {
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.hot-news-h2 {
+    margin-top: 50px;
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #18B4CF;
+    text-align: center;
+}
+
+.hot-news-first-container-content {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    margin-top: 50px;
+    grid-gap: 30px;
+    padding-left: 15px;
+    padding-right: 30px;
+}
+
+.hot-news-container-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.prophecy-hotel-spa, .kings-shroud-resort {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.prophecy-hotel-spa-description{
+    height: 259px;
+    background: #F9F7F7;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.03);
+}
+
+.kings-shroud-resort-description {
+    height: 259px;
+    width: 380px;
+    background: #F9F7F7;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.03);
+}
+
+.prophecy-hotel-spa-description-title, .kings-shroud-resort-description-title {
+    padding: 40px 30px 15px 15px;
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #353A3D;
+    text-align: right;
+}
+
+.prophecy-hotel-spa-description-text, .kings-shroud-resort-description-text {
+    padding: 0px 30px;
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #5B6469;
+    text-align: right;
+}
+
+.nebula-hotel {
+    height: 259px;
+    width: 272px;
+    background-color: #F9F7F7;
+    overflow: hidden;
+}
+
+.nebula-hotel-description {
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #353A3D;
+    text-align: center;
+    padding: 10px;
+}
+
+.hot-news-container-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 30px 15px;
+    grid-gap: 60px;
+}
+
+.western-pyramid-resort-title, .twin-sanctuary-hotel-title, .grand-meadows-resort-title, .wanderlust-resort-title {
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #353A3D;
+    text-align: right;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+
+}
+
+.western-pyramid-resort-description-text, .twin-sanctuary-hotel-text, .grand-meadows-resort-text, .wanderlust-resort-text{
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #5B6469;
+    text-align: right;
+    padding-right: 15px;
+    padding-left: 10px;
+}
+
+.western-pyramid-resort, .twin-sanctuary-hotel, .grand-meadows-resort, .wanderlust-resort {
+    height: 416px;
+    width: 554px;
+    background: #F9F7F7;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.03);
+}
+
+.hot-news-last-container-content {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-gap: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.prism-hotel {
+    height: 259px;
+    background-color: #F9F7F7;
+    width: 277px;
+}
+
+.prism-hotel-description {
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #353A3D;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer {
+    background-color: #000;
+    margin-top: 75px;
+}
+
+.footer-container {
+    height: 80px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 13px;
+    padding-left: 15px;
+}
+
+.footer-logo {
+    padding-right: 15px;
+    justify-self: end;
+}
+
+.footer-img1 {
+    margin-bottom: 7px;
+}
+
+.footer-img2 {
+    padding-right: 3px;
+}
+
+#button-up {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: red;
+    color: #FFFFFF;
+    z-index: 10;
+    display: none;
+    cursor: pointer;
+}
+
+.button-show-container {
+    display: flex;
+    justify-content: center;
+    background-color: #F2F2F2;
+    padding: 20px;
+}
+
+.show-section {
+    background-color: #89CA62;
+    padding: 10px 45px;
+    border-radius: 3px;
+    border: none;
+    font-size: 20px;
+    color: #FFFFFF;
+    outline: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
